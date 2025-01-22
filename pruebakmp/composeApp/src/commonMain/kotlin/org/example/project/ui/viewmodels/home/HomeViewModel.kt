@@ -1,19 +1,16 @@
-package ui.screens.home
+package org.example.project.ui.viewmodels.home
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import data.Filter
-import data.Note
+import org.example.project.data.Note
 //import data.fakeNotes
-import data.remote.NotesRepository
-import data.remote.notesClient
-import io.ktor.client.call.*
-import io.ktor.client.request.*
+import org.example.project.data.remote.NotesRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import org.example.project.data.Filter
 import kotlin.reflect.KProperty
 
 operator fun <T> StateFlow<T>.getValue(owner:Any?, property: KProperty<*>): T = this.value

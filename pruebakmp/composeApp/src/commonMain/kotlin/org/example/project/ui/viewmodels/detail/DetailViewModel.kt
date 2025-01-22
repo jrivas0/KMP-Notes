@@ -1,14 +1,12 @@
-package ui.screens.detail
+package org.example.project.ui.viewmodels.detail
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import data.Note
-import data.remote.NotesRepository
+import org.example.project.data.Note
+import org.example.project.data.remote.NotesRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import ui.screens.home.HomeViewModel
-import javax.swing.text.StyledEditorKit.BoldAction
 
 class DetailViewModel(private val scope: CoroutineScope, private val noteId: Long) {
     var state by mutableStateOf(UiState())
@@ -51,7 +49,7 @@ class DetailViewModel(private val scope: CoroutineScope, private val noteId: Lon
     }
 
     data class UiState(
-        val note: Note = Note("","",Note.Type.TEXT),
+        val note: Note = Note("","", Note.Type.TEXT),
         val loading: Boolean = false,
         val saved: Boolean = false
 
