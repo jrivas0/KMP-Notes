@@ -1,4 +1,4 @@
-# Notas Multiplataforma
+# KMP Notes
 
 Este proyecto es una aplicación de notas que permite añadir, consultar y filtrar notas en diferentes plataformas: Android, Web y Desktop (macOS, Windows, Linux). Utiliza Kotlin Multiplatform para el código compartido y Ktor para la comunicación con el servidor backend.
 
