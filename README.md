@@ -24,4 +24,4 @@ Este proyecto es una aplicación de notas que permite añadir, consultar y filtr
 
 ```bash
 git clone <URL_DEL_REPOSITORIO>
-cd notas-multiplataforma
+cd kmp-notes
