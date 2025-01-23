@@ -15,6 +15,7 @@ Este proyecto es una aplicación de notas que permite añadir, consultar y filtr
 
 ## Pre-requisitos
 
+- Antes de cualquier otro paso, necesitas ejecutar nuestro servidor de notas. Este es otro proyecto en GitHub que puedes encontrar aquí: Ktor Server (https://github.com/jrivas0/kotlin-server-ktor). 
 - JDK 11 o superior
 - [Kotlin Multiplatform Mobile plugin](https://kotlinlang.org/docs/mobile/setup.html) para Android Studio
 
